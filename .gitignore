@@ -1,0 +1,43 @@
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python caches / build artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# --- Secrets / sensitive files (don't commit credentials) ---
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.cert
+secrets.*
+credentials.*
+config.local.*
+*.local
+
+# --- App output ---
+paintings/
+*.png
+*.jpg
+*.jpeg
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Project notes (kept local) ---
+Explanation.md

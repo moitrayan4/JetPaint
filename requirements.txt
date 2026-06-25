@@ -1,0 +1,5 @@
+numpy==1.19.4
+opencv-python==4.5.3.56
+protobuf==3.19.4 
+dataclasses==0.8 #not required if python 3.7+
+
